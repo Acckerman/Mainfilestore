@@ -2,12 +2,12 @@
 import os
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID"))
-	API_HASH = os.environ.get("API_HASH")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME")
+	API_ID = int(os.environ.get("24865057"))
+	API_HASH = os.environ.get("a45372ac22649e134c7871ab3125bfb1")
+	BOT_TOKEN = os.environ.get("6045265527:AAHlhfPkJKe-596lWpu53vLR24a8SRIz1ms")
+	BOT_USERNAME = os.environ.get("TPLoveFileStoreBot")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL"))
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "5965340120"))
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", "5385426054"))
 	DATABASE_URL = os.environ.get("DATABASE_URL")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001765107260")
 	LOG_CHANNEL = os.environ.get("LOG_CHANNEL")
